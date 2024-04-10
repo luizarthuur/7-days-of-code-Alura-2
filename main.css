@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+.conteudo__hoje-data{
+    color: var(--cor-preto-fonte);
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 1em;
+}
+
+.conteudo__hoje__remota-1{
+    display: flex;
+    background-color: var(--cor-branco-fundo-celular);
+    width: 328px;
+    height: 85px;
+    margin: 1em auto 0em auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.conteudo__hoje__remota-1-itens-nome{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0.3em;
+}
+
+.conteudo__hoje__remota-1-itens-texto{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.conteudo__hoje__remota-1__Foto-luciana{
+    margin: 1em;
+}
+
+.conteudo__hoje__remota-1{
+    display: flex;
+    align-items: center;
+}
+
+.conteudo__hoje__remota-1-itens-div2{
+    display: flex;
+    gap: 5px;
+}
+
+.conteudo__hoje__remota-1-botao{
+    margin: 0 1em 0 auto;
+}
+
+.conteudo__hoje__remota-divisao{
+    width: 328px;
+    height: 1px;
+    opacity: 10%;
+    background-color: var(--cor-preto-fonte);
+    margin: 0 auto;
+}
+
+.conteudo__hoje__remota-2{
+    background-color: var(--cor-branco-fundo-celular);
+    width: 328px;
+    height: 100px;
+    margin: 0em auto 1em auto;
+}
+
+.conteudo__hoje__remota-2-duracao{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 auto 0.5em 1.6em;
+    padding-top: 1em;
+}
+
+.conteudo__hoje__remota-2-botoes{
+    display: flex;
+    gap: 5px;
+    margin: 0.7em auto 0 1.2em;
+}
+
+.conteudo__hoje__remota-2-botoes__botao-video{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cor-branco-fundo-celular);
+    background-color: var(--cor-botao-video);
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    text-align: center;
+    padding-left: 15px;
+    margin-right: 0.5em;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.4px;
+}
+
+.conteudo__hoje__remota-2-botoes__botao-audio{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cor-preto-fonte);
+    background-color: var(--cor-branco-fundo-celular);
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    text-align: center;
+    padding-left: 15px;
+    border: 1px solid var(--cor-borda-botao);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.4px;
+}
+
+.conteudo__hoje__remota-2-botoes__botao-endereco{
+    background-color: var(--cor-botao-endereco);
+    text-decoration: none;
+    color: var(--cor-branco-fundo-celular);
+    width: 296px;
+    height: 43px;
+    text-align: center;
+    border-radius: 8px;
+
+}

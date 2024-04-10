@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+
+
+.cabecalho__interface__celular{
+    width: 360px;
+    height: 33px;
+    background-color: var(--cor-branco-fundo-celular);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__interface__celular__icones{
+    display: flex;
+    margin-right: 1em;
+    gap: 16px;
+}
+
+.cabecalho__interface__celular__horas{
+    color: var(--cor-icones-celular);
+    margin-left: 1em;
+}

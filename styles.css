@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url(celular.css);
+@import url(main.css);
 
 *{
     margin: 0;
@@ -11,10 +13,45 @@
 
 :root{
     --fonte-principal: "Montserrat", sans-serif;
+    --cor-preto-fonte: #464646;
+    --cor-cinza-fonte: #a3a3a3;
+    --cor-cinza-fundo: #F9F7FE;
+    --cor-branco-fundo-celular: #FFFFFF;
+    --cor-icones-celular: #333333;
+    
+    --cor-botao-video: #FFB050;
+    --cor-borda-botao:#ECECEC;
+    --cor-botao-endereco: #4894FF;
+
 }
 
 
 
 body{
     font-family: var(--fonte-principal);
+    background-color: var(--cor-cinza-fundo);
 }
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    margin: 2em 0em 2em 1em;
+}
+
+
+.cabecalho__itens{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.cabecalho__foto-sonia{
+    margin-right: 1em;
+}
+
+.cabecalho__texto{
+    color: var(--cor-cinza-fonte);
+    font-size: 14px;
+    font-weight: 400;
+}
+
